@@ -17,6 +17,9 @@ HsCryptoKit provides cryptographic utilities for iOS and macOS, including suppor
   s.macos.deployment_target = '10.15'
   s.swift_version = '5.6'
 
+  # CocoaPods 依赖（只写已经发布到 CocoaPods 的库）
+  # 如果依赖是 SPM 或 Git，直接在 Podfile 里指定
+  s.dependency 'BigInt', '~> 5.0'
 
   # 代码文件
   s.source_files = [
