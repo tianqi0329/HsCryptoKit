@@ -17,13 +17,6 @@ HsCryptoKit provides cryptographic utilities for iOS and macOS, including suppor
   s.macos.deployment_target = '10.15'
   s.swift_version = '5.6'
 
-  # CocoaPods 依赖
-pod 'HsCryptoKit', :git => 'git@github.com:tianqi0329/HsCryptoKit.Swift.git', :tag => '1.0.0'
-pod 'HsExtensions', :git => 'git@github.com:tianqi0329/HsExtensions.Swift.git', :tag => '1.0.0'
-pod 'secp256k1.swift', :git => 'https://github.com/GigaBitcoin/secp256k1.swift.git', :tag => '0.10.0'
-pod 'BigInt', '~> 5.0'    # 官方 Pod
-pod 'swift-crypto', :git => 'https://github.com/apple/swift-crypto.git', :branch => 'main'
-
 
   # 代码文件
   s.source_files = [
