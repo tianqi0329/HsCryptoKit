@@ -5,12 +5,12 @@ Pod::Spec.new do |s|
   s.description      = <<-DESC
 HsCryptoKit provides cryptographic utilities for iOS and macOS, including support for BigInt arithmetic, secp256k1 elliptic curve operations, and other helper extensions.
   DESC
-  s.homepage         = 'https://github.com/tianqi0329/HsCryptoKit.Swift'
+  s.homepage         = 'https://github.com/tianqi0329/HsCryptoKit'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'tianqi0329' => 'tianqi_xinya@163.com' }
 
   # 仓库源码
-  s.source           = { :git => 'git@github.com:tianqi0329/HsCryptoKit.Swift.git', :tag => s.version.to_s }
+  s.source           = { :git => 'git@github.com:tianqi0329/HsCryptoKit.git', :tag => s.version.to_s }
 
   # 平台和 Swift 版本
   s.ios.deployment_target = '13.0'
